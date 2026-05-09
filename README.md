@@ -1,14 +1,20 @@
-# RAGStone
+# 🤖🍃 RAGStone AI
 
-**RAGStone**
+### Knowledge Reconstructed.
 
-Scientific Retrieval AI
+AI assistant powered by Spring Boot and Retrieval-Augmented Generation (RAG).
+
+> 🚧 This project is currently under active development.
+
+RAGStone AI is a scientific-inspired AI assistant that combines modern Retrieval-Augmented Generation (RAG), vector search, and LLMs to deliver grounded and context-aware responses from uploaded documents and custom knowledge bases. thêm vào chỗ phù hợp giúp tôi
 
 ---
 
 Overview
 
 RAGStone is a demo project that showcases a Retrieval-Augmented Generation (RAG) pipeline for building an AI assistant that answers questions using a searchable knowledge base of uploaded documents. The project combines modern retrieval (vector search) with transformer-based generation to produce grounded, context-aware responses. The brand name "RAGStone" is inspired by the fusion of RAG (Retrieval-Augmented Generation) and the adventurous spirit of Dr. Stone — scientific, precise, and exploratory.
+
+> The name **RAGStone** is inspired by the combination of **Retrieval-Augmented Generation (RAG)** and **Stone** from the anime *Dr. Stone*, reflecting the scientific and intelligent spirit of the genius character Senku Ishigami🧪.
 
 Key Concepts
 
@@ -186,3 +192,26 @@ ChatBotService        ──→  Mistral-7B via configured LLM (Gemini)
 | Vector store | Redis (`localhost:6379`) |
 | Redis index | `rag-index` |
 | Top-K results | 4 |
+
+---
+
+## 🎬 Demo Preview
+
+Experience **RAGStone AI** in action — showcasing document ingestion, semantic retrieval, and AI-powered responses using Retrieval-Augmented Generation (RAG).
+
+> Some sections of the demo have been trimmed or accelerated for a smoother viewing experience.
+
+<div align="center">
+
+<video controls width="800" poster="" src="https://github.com/user-attachments/assets/35b5ab15-860c-4f9d-bfe2-8d79ee11fc2a" type="video/mp4">
+     Your browser does not support the video tag. Download the demo video here:
+     [RAGStone demo video](https://github.com/user-attachments/assets/35b5ab15-860c-4f9d-bfe2-8d79ee11fc2a)
+</video>
+
+</div>
+
+<p align="center">
+  🍃 <i>Knowledge Reconstructed.</i>
+</p>
+
+
