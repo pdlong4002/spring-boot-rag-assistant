@@ -1,7 +1,7 @@
 package com.example.rag.service;
 
 import org.springframework.ai.document.Document;
-import org.springframework.ai.reader.pdf.PagePdfDocumentReader;
+import org.springframework.ai.reader.tika.TikaDocumentReader;
 import org.springframework.ai.transformer.splitter.TokenTextSplitter;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Value;
@@ -49,7 +49,7 @@ public class DataLoaderService implements ApplicationRunner {
         for (Resource pdf : pdfResources) {
             System.out.println("[DataLoader] Loading: " + pdf.getFilename());
             try {
-                List<Document> docs = splitter.apply(new PagePdfDocumentReader(pdf).read());
+                List<Document> docs = splitter.apply(new TikaDocumentReader(pdf).read());
                 allDocuments.addAll(docs);
             } catch (Exception e) {
                 System.out.println("[DataLoader] Skipped " + pdf.getFilename() + ": " + e.getMessage());

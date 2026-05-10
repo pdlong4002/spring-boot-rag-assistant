@@ -203,10 +203,17 @@ Experience **RAGStone AI** in action — showcasing document ingestion, semantic
 
 <div align="center">
 
-<video controls width="800" poster="" src="https://github.com/user-attachments/assets/35b5ab15-860c-4f9d-bfe2-8d79ee11fc2a" type="video/mp4">
-     Your browser does not support the video tag. Download the demo video here:
-     [RAGStone demo video](https://github.com/user-attachments/assets/35b5ab15-860c-4f9d-bfe2-8d79ee11fc2a)
-</video>
+## 🎬 Demo
+
+<div align="center">
+
+https://github.com/user-attachments/assets/35b5ab15-860c-4f9d-bfe2-8d79ee11fc2a
+
+<br>
+
+⚗️ **RAGStone AI** — *Knowledge Reconstructed.*
+
+</div>
 
 </div>
 

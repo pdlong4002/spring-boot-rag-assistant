@@ -1,4 +1,3 @@
 .env
 notes.txt
-target
-data
+target/
