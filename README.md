@@ -6,7 +6,7 @@ AI assistant powered by Spring Boot and Retrieval-Augmented Generation (RAG).
 
 > 🚧 This project is currently under active development.
 
-RAGStone AI is a scientific-inspired AI assistant that combines modern Retrieval-Augmented Generation (RAG), vector search, and LLMs to deliver grounded and context-aware responses from uploaded documents and custom knowledge bases. thêm vào chỗ phù hợp giúp tôi
+RAGStone AI is a scientific-inspired AI assistant that combines modern Retrieval-Augmented Generation (RAG), vector search, and LLMs to deliver grounded and context-aware responses from uploaded documents and custom knowledge bases.
 
 ---
 
